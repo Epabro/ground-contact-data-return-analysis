@@ -27,10 +27,10 @@ A small **mission-operations style** analysis tool to estimate **ground-station 
 ## Quickstart
 Create a virtual environment, install dependencies, run the analysis:
 
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python3 run_passes.py outputs_mask10
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    python3 run_passes.py outputs_mask10
 
 ## Outputs
 After running, the output folder contains:
