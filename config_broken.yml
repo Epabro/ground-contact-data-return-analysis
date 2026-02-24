@@ -1,0 +1,22 @@
+analysis:
+  min_pass_duration_s: 120time:
+  start_utc: "2026-02-24T00:00:00Z"
+  end_utc:   "2026-03-10T00:00:00Z"
+
+satellites:
+  - name: "ISS (ZARYA)"
+    tle_url: "https://celestrak.org/norad/elements/gp.php?CATNR=25544&FORMAT=tle"
+
+ground_stations:
+  - name: "Darmstadt"
+    lat_deg: 49.8728
+    lon_deg: 8.6512
+    alt_m: 144
+    mask_deg: 10.0
+
+link:
+  downlink_mbps: 1.0
+  efficiency: 0.70
+
+analysis:
+  min_pass_duration_s: 120
